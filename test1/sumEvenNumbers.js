@@ -1,4 +1,4 @@
-function sumEvenNumbers(obj) {
+export function sumEvenNumbers(obj) {
   // Initialize sum to 0
   let sum = 0;
 

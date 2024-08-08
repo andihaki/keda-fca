@@ -1,4 +1,4 @@
-function maxSumSubarray(input, maxLength) {
+export function maxSumSubarray(input, maxLength) {
   let maxSum = 0;
   let currentSum = 0;
 
