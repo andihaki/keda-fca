@@ -27,4 +27,4 @@ const input = {
 };
 const result = sumEvenNumbers(input);
 
-console.log(result);
+// console.log(result);

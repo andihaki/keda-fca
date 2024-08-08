@@ -10,4 +10,4 @@ const arraySort = (arr) => {
 };
 
 const input = [1, 2, 4, 3, 5, 3, 2, 1];
-console.log(arraySort(input));
+// console.log(arraySort(input));

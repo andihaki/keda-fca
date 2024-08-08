@@ -20,4 +20,4 @@ function maxSumSubarray(input, maxLength) {
 }
 
 // console.log(maxSumSubarray([100, 200, 300, 400], 2)); // 700
-console.log(maxSumSubarray([1, 4, 2, 10, 23, 3, 1, 0, 20], 4)); // 39
+// console.log(maxSumSubarray([1, 4, 2, 10, 23, 3, 1, 0, 20], 4)); // 39
