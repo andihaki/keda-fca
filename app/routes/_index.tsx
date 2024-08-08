@@ -1,4 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
+
+import shape1 from "/app/assets/about-shape1.svg";
 import Header from "~/components/Header";
 import About from "~/components/About";
 import Pricing from "~/components/Pricing";
@@ -10,7 +12,8 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="font-sans p-4 max-w-7xl mx-auto">
+    <div className="font-sans max-w-7xl mx-auto relative">
+      <img src={shape1} alt="shape" className="absolute -top-12 -left-12" />
       <Header />
       <About />
       <Pricing />
